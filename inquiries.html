@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inquiries - House of Royals</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="images/logo.jpg" alt="House of Royals Logo" id="logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="board.html">Board of Trustees</a></li>
+                <li><a href="inquiries.html">Inquiries</a></li>
+                <li><a href="events.html">Events</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="marquee-container">
+        <div class="marquee-content" id="eventMarquee">Contact us for any question</div>
+    </div>
+
+    <main>
+        <section class="contact-form">
+            <h2>Contact Us</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Enter your Phone Number (whatsapp)" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email Address" required>
+
+                <label for="appointmentDate">Appointment Date:</label>
+                <input type="date" id="appointmentDate" name="appointmentDate" required>
+
+                <label for="appointmentTime">Preferred Time:</label>
+                <input type="time" id="appointmentTime" name="appointmentTime" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder="Any specific requests..." optional></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section class="store-info">
+            <h2>Store Information</h2>
+            <p><strong>Address:</strong> 123 Fashion Street, Royal City, Eko Atlantic, Victoria Island, Lagos</p>
+            <p><strong>Phone:</strong> (234) 703-2783-874</p>
+            <p><strong>Email:</strong> info@houseofroyals.com</p>
+            <p><strong>Opening Hours:</strong></p>
+            <ul>
+                <li>Monday - Friday: 9:00 AM - 6:00 PM</li>
+                <li>Saturday: 10:00 AM - 4:00 PM</li>
+                <li>Sunday: Closed</li>
+            </ul>
+            <div id="map">
+                <!-- Embed a map here (optional) -->
+            </div>
+        </section>
+
+        <section class="appointment-booking">
+            <h2>Schedule a Sesseion</h2>
+            <p>Schedule a personal shopping appointment with one of our stylists.</p>
+            <button id="appointmentButton">Schedule Now</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 House of Royals</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
